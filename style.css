@@ -1,0 +1,93 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form input, form textarea {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.skills {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.progress {
+  background: #eee;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 10px;
+}
+
+.bar {
+  height: 10px;
+  background: #007bff;
+  transition: width 1s ease-in-out;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
